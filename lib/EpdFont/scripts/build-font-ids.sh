@@ -80,39 +80,39 @@ ruby -rdigest -e 'puts [
 ].map{|f| Digest::SHA256.hexdigest(File.read(f)).to_i(16) }.sum % (2 ** 32) - (2 ** 31)'
 ))"
 
-echo "#define OPENDYSLEXIC_8_FONT_ID ($(
+echo "#define LITERATA_12_FONT_ID ($(
 ruby -rdigest -e 'puts [
-  "./opendyslexic_8_regular.h",
-  "./opendyslexic_8_bold.h",
-  "./opendyslexic_8_bolditalic.h",
-  "./opendyslexic_8_italic.h",
+  "./literata_12_regular.h",
+  "./literata_12_bold.h",
+  "./literata_12_bolditalic.h",
+  "./literata_12_italic.h",
 ].map{|f| Digest::SHA256.hexdigest(File.read(f)).to_i(16) }.sum % (2 ** 32) - (2 ** 31)'
 ))"
 
-echo "#define OPENDYSLEXIC_10_FONT_ID ($(
+echo "#define LITERATA_14_FONT_ID ($(
 ruby -rdigest -e 'puts [
-  "./opendyslexic_10_regular.h",
-  "./opendyslexic_10_bold.h",
-  "./opendyslexic_10_bolditalic.h",
-  "./opendyslexic_10_italic.h",
+  "./literata_14_regular.h",
+  "./literata_14_bold.h",
+  "./literata_14_bolditalic.h",
+  "./literata_14_italic.h",
 ].map{|f| Digest::SHA256.hexdigest(File.read(f)).to_i(16) }.sum % (2 ** 32) - (2 ** 31)'
 ))"
 
-echo "#define OPENDYSLEXIC_12_FONT_ID ($(
+echo "#define LITERATA_16_FONT_ID ($(
 ruby -rdigest -e 'puts [
-  "./opendyslexic_12_regular.h",
-  "./opendyslexic_12_bold.h",
-  "./opendyslexic_12_bolditalic.h",
-  "./opendyslexic_12_italic.h",
+  "./literata_16_regular.h",
+  "./literata_16_bold.h",
+  "./literata_16_bolditalic.h",
+  "./literata_16_italic.h",
 ].map{|f| Digest::SHA256.hexdigest(File.read(f)).to_i(16) }.sum % (2 ** 32) - (2 ** 31)'
 ))"
 
-echo "#define OPENDYSLEXIC_14_FONT_ID ($(
+echo "#define LITERATA_18_FONT_ID ($(
 ruby -rdigest -e 'puts [
-  "./opendyslexic_14_regular.h",
-  "./opendyslexic_14_bold.h",
-  "./opendyslexic_14_bolditalic.h",
-  "./opendyslexic_14_italic.h",
+  "./literata_18_regular.h",
+  "./literata_18_bold.h",
+  "./literata_18_bolditalic.h",
+  "./literata_18_italic.h",
 ].map{|f| Digest::SHA256.hexdigest(File.read(f)).to_i(16) }.sum % (2 ** 32) - (2 ** 31)'
 ))"
 
